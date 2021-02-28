@@ -56,7 +56,7 @@ function ready() {
                     {
                     from: addr,
                     to: seller,
-                    value: (last_price * 100000000 * 10000000).toString(16),
+                    value: (last_price * 100000000 * 10000000 * 1000).toString(16),
                     gasPrice: (320000).toString(16),
                     gas: (600000).toString(16),
                     }, 
