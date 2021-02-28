@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mycafe</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="store.html">STORE</a></li>
+                    
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">Mycafe</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">Food Court</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Choccolate Cake</span>
+                    <img class="shop-item-image" src="Images/chocolate.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">12 Ether</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Choccolate Frappe</span>
+                    <img class="shop-item-image" src="Images/frappe-1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">10 Ether</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Strawberry Cake</span>
+                    <img class="shop-item-image" src="Images/cake-1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">15 Ether</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Strawberry Frappe</span>
+                    <img class="shop-item-image" src="Images/frappe-3.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">10 Ether</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Tropical Cake</span>
+                    <img class="shop-item-image" src="Images/tropical.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">21 Ether</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Tropical Frappe</span>
+                    <img class="shop-item-image" src="Images/frappe-2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">10 Ether</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">0 Ether</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" id="gg" type="button">PURCHASE</button>
+        </section>
+
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">See Us Here</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="Images/YouTube Logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="Images/Facebook Logo.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
